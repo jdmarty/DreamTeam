@@ -1,7 +1,7 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    padding: 0rem;
+    margin: 0rem;
+    border: 0rem;
 }
 
 .navbar {
@@ -26,4 +26,10 @@
 #bodyCol {
     background-color: white;
     height: 750px;
+}
+
+#basketball, #navBarTitle {
+    font-size: 30px;
+    width: auto;
+    height: 30px;
 }
