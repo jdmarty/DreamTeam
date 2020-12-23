@@ -9,47 +9,63 @@ Player.init(
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true,
       autoIncrement: true,
+      primaryKey: true,
     },
-    name: {
+    player_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    offence: {
+    gp: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    defence: {
-      type: DataTypes.INTEGER,
+    pts: {
+      type: DataTypes.FLOAT(4, 2),
       allowNull: false,
     },
-    twoPtPercent: {
-      type: DataTypes.DECIMAL(10, 3),
+    fgm: {
+      type: DataTypes.FLOAT(4, 2),
       allowNull: false,
     },
-    threePtPercent: {
-      type: DataTypes.DECIMAL(10, 3),
+    fga: {
+      type: DataTypes.FLOAT(4, 2),
       allowNull: false,
     },
-    ppg: {
-      type: DataTypes.DECIMAL(10, 2),
+    fgpct: {
+      type: DataTypes.FLOAT(5, 3),
       allowNull: false,
     },
     oreb: {
-      type: DataTypes.DECIMAL(10, 3),
+      type: DataTypes.FLOAT(4, 2),
       allowNull: false,
     },
     dreb: {
-      type: DataTypes.DECIMAL(10, 3),
+      type: DataTypes.FLOAT(4, 2),
       allowNull: false,
     },
-    steals: {
-      type: DataTypes.DECIMAL(10, 3),
+    reb: {
+      type: DataTypes.FLOAT(4, 2),
       allowNull: false,
     },
-    blocks: {
-      type: DataTypes.DECIMAL(10, 3),
+    ast: {
+      type: DataTypes.FLOAT(4, 2),
+      allowNull: false,
+    },
+    stl: {
+      type: DataTypes.FLOAT(4, 2),
+      allowNull: false,
+    },
+    blk: {
+      type: DataTypes.FLOAT(4, 2),
+      allowNull: false,
+    },
+    tov: {
+      type: DataTypes.FLOAT(4, 2),
+      allowNull: false,
+    },
+    tspct: {
+      type: DataTypes.FLOAT(5, 3),
       allowNull: false,
     },
   },
