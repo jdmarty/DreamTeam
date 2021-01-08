@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\bensh\Downloads\bootstrap (1).css">
+    <link rel="stylesheet" href="createplayer.css">
+</head>
+<body>
+    
+      <!---------bootstrap navbar------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!---------bootstrap navbar-end------->
+
+<!---------bootstrap breadcrumbs------->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><h1 class="display-6">CREATE TEAM</h1></li>
+      </ol>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home Page</a></li>
+        <li class="breadcrumb-item active">Create Team</li>
+      </ol>
+      
+
+      <!---------bootstrap breadcrumbs-end------->
+
+       <!---------bootstrap Large button------->
+       
+       <div>
+       <button type="button" class="btn btn-primary btn-lg">Add Player</button>
+       <button type="button" class="btn btn-primary btn-lg">Select Player</button>
+       <button type="button" class="btn btn-primary btn-lg">Delete Player</button>
+    </div>
+      <!---------bootstrap Large button-end------->
+
+
+
+
+<!---------bootstrap player cards------->
+      <div class="card mb-3" style="max-width: 540px;" id="card1">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://cops.usdoj.gov/html/dispatch/01-2013/images/Blankman.jpg" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;" id="card2">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://cops.usdoj.gov/html/dispatch/01-2013/images/Blankman.jpg" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;" id="card3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://cops.usdoj.gov/html/dispatch/01-2013/images/Blankman.jpg" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;" id="card4">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://cops.usdoj.gov/html/dispatch/01-2013/images/Blankman.jpg" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;" id="card5">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://cops.usdoj.gov/html/dispatch/01-2013/images/Blankman.jpg" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+  <!---------bootstrap player cards-end------>
+</html>
+
+<--------------------------------------------------------------------->
+ bens css for team create
+
+ <-------------------------------------------------------------------->
+ body{
+background-image: url("https://www.nynesting.com/sites/default/files/teaser_images/basketball_court.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position:center ;
+background-size: 95%;
+background-color: hsl(209, 54%, 37%);
+overflow: auto;
+}
+
+nav{
+    background-color: #812e2e;
+}
+
+ #navbarColor02{
+    background-color: #444;
+}
+.navbar-brand{
+    background-color:#444;
+    border-radius: 25%;
+}
+
+
+    #card1{
+    float: left;
+    margin-right: 8rem;
+        }
+    
+    #card2{
+    float: left;
+    margin-right: 8rem;
+        }
+
+    #card3{
+    float: right;
+    }
+
+    #card4{
+        float: right;
+        margin-right: 8rem;
+        
+    }
+    #card5{
+        float: right;
+        margin-right: 8rem;
+    }
+
+    .display-6{
+    
+       margin-left: 35rem;
+        color:#666;
+        letter-spacing: 2rem;
+        font-weight: 550;
+    }
